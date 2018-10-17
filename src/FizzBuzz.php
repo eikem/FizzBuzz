@@ -27,7 +27,8 @@ class FizzBuzz
      * @param  int  $endInt
      *
      */
-    public function __construct($startInt,$endInt) {
+    public function __construct($startInt,$endInt) 
+    {
         
         $this->startInt = $startInt;
         $this->endInt = $endInt;
